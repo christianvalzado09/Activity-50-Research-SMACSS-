@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile Page: BSIT 2nd Year, Sec 2</title>
+
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #350a0a;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #fff;
+            font-family: "Helvetica", sans-serif;
+        }
+        h2, h3 {
+            margin: 0;
+            color: #d9d9d9;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+      
+        a:hover {
+            text-decoration: underline;
+        }
+        .header {
+            background: #000;
+            padding: 20px;
+            border-bottom: 2px solid #3498db;
+        }
+        .main {
+            display: flex;
+            flex-direction: row;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            background: #333;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px black;
+            color: #fff;
+        }
+        .sidebar img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            background: #111;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-left: 20px;
+            color: #fff;
+        }
+        .button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+            background-color: #3498db;
+            color: white;
+        }
+        .button:hover {
+            background-color: #1f6fa1;
+        }
+        .card {
+            border: 1px solid #222;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            background: #444;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .theme-dark {
+            background: #111;
+            color: white;
+        }
+        .theme-light {
+            background: white;
+            color: #333;
+        }
+    </style> 
+</head>
+
+<body>
+    <header class="header">
+        <h1>Activity 50: Research SMACSS - Scalable and Modular Architecture for CSS</h1>
+    </header>
+    <div class="main">
+        <aside class="sidebar">
+            <h2>Profile</h2>
+            <img src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t39.30808-6/454582003_1290003579075964_5828748943921642642_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHHYz2sO4RQpRy7-xX0qDRzf3Nq2r6tc3J_c2ravq1zcuHtGCeTtAP62BmpMIR9gOFDXxF1AI6D7_kRJ2BPMVHV&_nc_ohc=ZJfnFVJtNPoQ7kNvgFsF79G&_nc_ht=scontent.fmnl14-1.fna&_nc_gid=AZe9THWRETxB-XmJ09UmIkG&oh=00_AYCwr4fAJbJ3-UnUQRm0gH0fg6fjoyntz43mr4D5jGj9OA&oe=671A9811" alt="Profile Picture">
+        </aside>
+        <section class="content">
+            <div class="card">
+                <h3>About Me</h3>
+                <p>Hi! I'm a BSIT 2nd Year student from Section 2. I'm passionate about technology, coding, and everything related to the IT field. 
+                    Currently, I am exploring web development, and I aim to master both front-end and back-end development in the near future.</p>
+                <button class="button">Contact Me</button>
+                <button class="button">Learn More</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
